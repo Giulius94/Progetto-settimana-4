@@ -1,0 +1,325 @@
+body {
+    color: #191919;
+    font-size: 16px;
+    z-index: 1;
+}
+
+header {
+    display: flex;
+    background-color: #ffc017;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: 0.5px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-right: 22%;
+}
+
+nav img {
+    padding: 1.5em;
+}
+
+nav ul li {
+    margin: 1em;
+    font-size: 0.8em;
+}
+
+.start{
+    background-color: #191919;
+    border-radius: 1.3em;
+}
+
+.start li a {
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+article {
+    width: 100%;
+    background-color: #ffc017;
+}
+
+article, .boxLeft, .boxRight, .container, .imgTrend  {
+    display: flex;
+}
+
+.boxDiscover {
+    width: 65%;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.boxLeft { 
+    flex-flow: column wrap;
+    margin: 5em auto;
+    justify-content: space-between;
+}
+
+.boxButton {
+    background-color: #191919;
+    border-radius: 1.3em;
+    width: 25%;
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.boxButton p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+article h1 {
+    font-size: 7em;
+    font-family: 'Spectral', serif;
+    letter-spacing: -0.05em;
+}
+
+section {
+    width: 100%;
+    border: 0.5px solid lightgrey;
+}
+
+.trending {
+    width: 76%;
+    margin: 2em auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.imgTrend p {
+    margin: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number p {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: #e6e7e7;
+}
+.boxTrend {
+    width: 26%;
+    display: flex;
+    flex-flow: row;
+    margin-top: 1em;
+}
+
+section .boxTrend img {
+    border-radius: 30%;
+}
+section .boxTrend img:first-child {
+    border-radius: 50%;
+}
+
+.trendContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.number {
+    margin-right: 0.5em;
+}
+
+.autore {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.autore img {
+    margin-right: 0.5em;
+    width: 1.2em;
+}
+
+.description p:last-child {
+    padding-top: 1em;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.description p:first-of-type {
+    font-weight: 900;
+    font-size: 0.9em;
+}
+
+.autore p {
+    font-size: 0.8em;
+}
+
+.description span, .relatedInfoLeft span {
+    margin: 0.5em;
+    font-weight: 600;
+}
+
+.imgTrend {
+    margin-bottom: 1em;
+}
+
+.relatedFull {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightTitle {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.rightdivs {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1em;
+    color: grey;
+}
+
+.infoDiv {
+    padding: 0.4em;
+    border: 1px solid lightgray;
+    margin-right: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.relatedRight {
+    width: 30%;
+}
+
+.footerRight {
+    width: 90%;
+    display: inline-block;
+}
+
+.footerRight ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 5em;
+}
+
+.footerRight ul li {
+    margin-right: 0.8em;
+    margin-bottom: 0.6em;
+}
+
+hr {
+    opacity: 0.4;
+    margin: 1.5em auto;
+}
+
+.footerRight ul li a {
+    color: grey;
+}
+
+.boxRelated {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.boxRelatedImg img {
+    width: 57%;
+}
+
+.relatedAuthor {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.relatedAuthor img {
+    border-radius: 50%;
+}
+
+.relatedAuthor span {
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.relatedDescription h3 {
+    font-weight: 900;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.relatedDescription p {
+    color: grey;
+    margin-bottom: 1em;
+}
+
+.relatedDescription {
+    width: 90%;
+}
+
+.relatedInfoLeft p {
+    font-weight: 200;
+}
+
+.relatedInfo {
+    display: flex;
+    flex-flow: row;
+}
+
+.relatedInfo {
+    display: flex;
+    flex-flow: row;
+}
+
+.relatedInfoLeft {
+    display: flex;
+    flex-flow: row;
+    width: 95%;
+    flex-flow: row;
+    align-items: center;
+}
+
+.boxRelatedLeft {
+    width: 50%;
+}
+
+strong {
+    background-color: #f2eeee;
+    border-radius: 1em;
+    padding: 0.4em;
+    font-size: 0.9em;
+    margin-right: 0.5em;
+}
