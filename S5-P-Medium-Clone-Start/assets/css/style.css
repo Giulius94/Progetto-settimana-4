@@ -193,7 +193,7 @@ section .boxTrend img:first-child {
 
 .relatedFull {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 3em;
     font-family: 'Roboto', sans-serif;
 }
@@ -253,10 +253,11 @@ hr {
     display: flex;
     flex-flow: row;
     justify-content: center;
+    align-items: end;
 }
 
 .boxRelatedImg img {
-    width: 57%;
+    width: 50%;
 }
 
 .relatedAuthor {
@@ -267,17 +268,19 @@ hr {
 
 .relatedAuthor img {
     border-radius: 50%;
+    width: 1.6em;
 }
 
 .relatedAuthor span {
     font-weight: 500;
     font-size: 0.8em;
+    margin-left: 0.7em;
 }
 
 .relatedDescription h3 {
     font-weight: 900;
     font-size: 1.3em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
     margin-top: 0.5em;
 }
 
@@ -322,4 +325,12 @@ strong {
     padding: 0.4em;
     font-size: 0.9em;
     margin-right: 0.5em;
+}
+
+.relatedLeft {
+    margin-bottom: 1.5em;
+}
+
+.relatedLeftAll {
+    width: 63%;
 }
