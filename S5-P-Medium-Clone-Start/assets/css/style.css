@@ -417,3 +417,21 @@ g {
     padding-right: 0em;
 }
   }
+
+  /* smartphone */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    nav ul li {
+        margin: 0;
+    }
+    .start {
+        display: unset;
+    }
+
+    .logo {
+        margin-right:0;
+    }
+    nav {
+        flex-flow: row;
+    }
+  }
