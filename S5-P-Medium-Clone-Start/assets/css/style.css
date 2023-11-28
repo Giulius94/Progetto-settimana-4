@@ -240,7 +240,7 @@ section .boxTrend img:first-child {
 
 .footerRight ul {
     list-style: none;
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
     padding-right: 5em;
 }
@@ -253,6 +253,8 @@ section .boxTrend img:first-child {
 hr {
     opacity: 0.4;
     margin: 1.5em auto;
+    width: 76%;
+    float: inline-start;
 }
 
 .footerRight ul li a {
@@ -343,6 +345,7 @@ strong {
 
 .relatedLeftAll {
     width: 63%;
+    margin-left: 9em;
 }
 
 .boxRelatedRigth {
@@ -365,3 +368,52 @@ g {
     0%   {opacity: 100%;}
   100% {opacity: 20%;}
 }
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .boxLeft {
+        margin: auto;
+        padding-left: 2em;
+    }
+    article h1 {
+        font-size: 5em;
+        margin-bottom: 0.2em;
+
+    }
+    .boxDiscover {
+        width: 95%;
+        margin-bottom: 2em;
+    }
+    .boxButton {
+        width: 30%;
+        font-size: 0.8em;
+    }
+    .trending {
+        width: auto;
+        padding: 1em;
+    }
+    .boxTrend {
+        width: 40%;
+    }
+    .relatedLeftAll {
+        margin-left: 0;
+        order: 2;
+        width: 100%;
+    }
+    .relatedRight {
+        width: 100%;
+        margin: 1em;
+    }
+    .relatedFull {
+        flex-flow: column wrap;
+        margin-top: 1em;
+    }
+    hr {
+        width: 100%; 
+    }
+    .footerRight ul li {
+        margin-right: 1.4em;
+    }
+    .footerRight ul {
+    padding-right: 0em;
+}
+  }
