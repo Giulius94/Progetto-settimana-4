@@ -355,13 +355,13 @@ g {
     opacity: 1;
 }
 .random {
-    animation: Fading 1s ease-in-out 0.5s none;
-    -moz-animation: Fading 1s ease-in-out 0.5s none;
-    -webkit-animation: Fading 1s ease-in-out 0.5s none;
-    -o-animation: Fading 1s ease-in-out 0.5s none;
+    animation: mRand 1s ease-in-out 0.5s none;
+    -moz-animation: mRand 1s ease-in-out 0.5s none;
+    -webkit-animation: mRand 1s ease-in-out 0.5s none;
+    -o-animation: mRand 1s ease-in-out 0.5s none;
 }
 
-@keyframes Fading {
+@keyframes mRand {
     0%   {opacity: 100%;}
-  100% {opacity: 0%;}
+  100% {opacity: 20%;}
 }
