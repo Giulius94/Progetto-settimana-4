@@ -349,3 +349,19 @@ strong {
     position: sticky;
     top: 7em;
 }
+
+/* Animazioni M */
+g { 
+    opacity: 1;
+}
+.random {
+    animation: Fading 1s ease-in-out 0.5s none;
+    -moz-animation: Fading 1s ease-in-out 0.5s none;
+    -webkit-animation: Fading 1s ease-in-out 0.5s none;
+    -o-animation: Fading 1s ease-in-out 0.5s none;
+}
+
+@keyframes Fading {
+    0%   {opacity: 100%;}
+  100% {opacity: 0%;}
+}
